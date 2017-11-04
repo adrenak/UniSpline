@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
-using System.Collections;
+using UniSpline;
 
-public class MovingBall : MonoBehaviour {
+public class MovingBallExample : MonoBehaviour {
     [SerializeField]
-    BezierBehaviour bezierBehaviour;
+    BezierDrawer bezierBehaviour;
 
     float curvePosition;
 
